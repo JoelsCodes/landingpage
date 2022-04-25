@@ -1,5 +1,7 @@
 /* styless.css */
-
+.text-align span {
+    text-align: auto;
+}
 .flex-container1 div {
     display: flex;
     background: white;
@@ -58,8 +60,16 @@ background-color: #e5e7eb;
 flex-wrap: wrap;
 
 }
-
+.flex-container1 span {
+    flex-wrap: nowrap;
+    text-align: right;
+    margin-left: 65%;
+    font-weight: bold;
+}
 .flex-container1 p {
+    font-size: 18px;
+    font-weight: lighter;
+    font-style: italic;
     color: black;
     background-color: #e5e7eb;
 }
@@ -84,7 +94,7 @@ footer
 
 /* END FLEX CONTAINER FIVE */
 
-*{
+*:not(span,p) {
     background-color: black;
     
 }
