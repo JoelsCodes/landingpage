@@ -1,10 +1,90 @@
 /* styless.css */
 
-.flex-container div {
-    background: trapeachpuff;
-    border: 4px solid brown;
-    height: 20px;
-    width: 250px;
-    margin: 25%;
+.flex-container1 div {
+    display: flex;
+    background: white;
+    padding: 10%;
+    margin-left: 13%;
+    margin-right: 13%;
     flex: 1 1 auto;
+}
+
+/*BEGIN FLEX CONTAINER ONE*/
+.flex-container1 .one {
+    color: white;
+    background-color: #1f2937;
+}
+/* END FLEX CONTAINER ONE*/
+
+/*BEGIN FLEX CONTAINER TWO*/
+
+.flex-container1 .two {
+    flex-wrap: wrap;
+    flex: 0 0 0;
+    padding: 0px;
+    margin-bottom: 0%;
+    justify-content: center;
+    background-color: white;
+}
+
+.flex-container1 h2 {
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    background-color: white;
+}
+
+.flex-item div {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    flex-direction: row;
+    justify-content: center;
+    background: white;
+    border: 4px solid #3882f6;
+    min-width: 0;
+    width: 80px;
+    height: 20px;
+    padding: auto;
+    margin: 5px;
+    flex: 0 0 0;
+}
+/* END FLEX CONTAINER TWO*/
+
+/*BEGIN FLEX CONTAINER THREE*/
+
+.flex-container1 .three {
+background-color: #e5e7eb;
+flex-wrap: wrap;
+
+}
+
+.flex-container1 p {
+    color: black;
+    background-color: #e5e7eb;
+}
+/* END FLEX CONTAINER THREE*/
+
+/* BEGIN FLEX CONTAINER FIVE */
+
+.flex-container1 .five {
+    background-color: #1f2937;
+    padding: 3.5%;
+    
+}
+
+footer
+{
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: #1f2937
+
+}
+
+/* END FLEX CONTAINER FIVE */
+
+*{
+    background-color: black;
+    
 }
